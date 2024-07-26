@@ -1,0 +1,17 @@
+name: hello-world
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: setup project
+        run: make setup
+
+      - name: tests
+        run: make test
+
+      - name: lint
+        run: make lint
