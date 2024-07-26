@@ -1,4 +1,4 @@
-[![hello-world](https://github.com/eideltsova/hexlet-ci-app/actions/workflows/first.yml/badge.svg)](https://github.com/eideltsova/hexlet-ci-app/actions/workflows/first.yml)
+[![hexlet-ci](https://github.com/eideltsova/hexlet-ci-app/actions/workflows/first.yml/badge.svg)](https://github.com/eideltsova/hexlet-ci-app/actions/workflows/first.yml)
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
