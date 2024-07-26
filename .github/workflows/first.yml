@@ -1,4 +1,4 @@
-name: hello-world
+name: hexlet-ci
 on: push
 jobs:
   build:
