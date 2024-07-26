@@ -8,13 +8,13 @@ jobs:
         uses: actions/checkout@v2
 
       - name: run snyk for check 
-        uses: snyk/actions/checkout@main
+        uses: snyk/actions/checkout@master
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}  
         with:
           node-version: '18.x'
           cache: 'npm'
-          
+
       - name: setup project
         run: make setup
 
